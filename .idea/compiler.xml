@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="iterator" />
         <module name="adapter" />
+        <module name="Template" />
       </profile>
     </annotationProcessing>
   </component>
