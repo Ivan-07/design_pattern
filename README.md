@@ -27,3 +27,16 @@
 为什么要使用模板模式？
 
 它的优点是在父类的模板方法中就编写类算法，无需在每个子类中再编写算法
+
+## Factory模式
+![](https://raw.githubusercontent.com/ivan-07/picgoImg/main/data/202211031031776.png)
+
+**角色**：
+- 框架
+  - Product：是一个抽象类，决定了在工厂模式中生成的实例所持有的接口。
+  - Creator：是一个抽象类，负责生成Product。
+- 具体实现
+  - ConcreteCreator
+  - ConcreteProduct
+
+Factory模式本质上其实就是Template模式的一种特殊情况：模板化生产实例的方法，专注对实例的生成。
