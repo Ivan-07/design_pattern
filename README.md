@@ -29,8 +29,7 @@
 它的优点是在父类的模板方法中就编写类算法，无需在每个子类中再编写算法
 
 ## Factory模式
-![](https://raw.githubusercontent.com/ivan-07/picgoImg/main/data/202211031031776.png)
-
+![](https://raw.githubusercontent.com/ivan-07/picgoImg/main/data/202211031044478.png)
 **角色**：
 - 框架
   - Product：是一个抽象类，决定了在工厂模式中生成的实例所持有的接口。
