@@ -1,5 +1,7 @@
 package com.ivan;
 
+import java.io.InputStream;
+
 public class mainTest {
     public static void main(String[] args) {
         AbstractDisplay display1 = new CharDisplay('M');
