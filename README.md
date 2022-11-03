@@ -55,3 +55,12 @@ Factory模式本质上其实就是Template模式的一种特殊情况：模板�
 1. 对象种类繁多，无法将他们整合到一个类中
 2. 难以根据类生成实例时
 3. 想解耦框架和生成的实例时
+
+## Builder模式
+**角色：**
+- Builder：定义了生成实例的接口，包含了所需的一些方法
+- ConcreteBuilder：实际实现Builder接口的类
+- Director：负责调度使用Builder中的方法
+![](https://raw.githubusercontent.com/ivan-07/picgoImg/main/data/202211031810244.png)
+
+>Builder模式和Template模式有什么区别呢？个人理解Template模式在抽象类（父类）中即规定了实际的调度方法（对应于Builder模式中Director中的方法）。这里的调度方法指的是对抽象方法的组合应用。

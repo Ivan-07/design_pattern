@@ -9,8 +9,9 @@
         <module name="factory" />
         <module name="iterator" />
         <module name="adapter" />
-        <module name="prototype" />
         <module name="Singleton" />
+        <module name="builder" />
+        <module name="prototype" />
         <module name="Template" />
       </profile>
     </annotationProcessing>
