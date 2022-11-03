@@ -43,3 +43,15 @@ Factory模式本质上其实就是Template模式的一种特殊情况：模板�
 ## Singleton模式
 目的：保证该类只有一个实例
 实现：通过私有化构造器，提供一个类的静态方法来获取该类持有的唯一实例。
+
+## Prototype模式
+**角色**：
+- Prototype：原型，负责定义用于复制现有实例来生成新实例的方法，这里是Product
+- ConcretePrototype：具体的原型，在这里是MessageBox
+- Client：负责使用复制实例的方法来生成新实例，这里是Manger
+  ![](https://raw.githubusercontent.com/ivan-07/picgoImg/main/data/202211031225329.png)
+
+为什么要使用该模式？
+1. 对象种类繁多，无法将他们整合到一个类中
+2. 难以根据类生成实例时
+3. 想解耦框架和生成的实例时
