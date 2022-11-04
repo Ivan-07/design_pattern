@@ -10,6 +10,7 @@
         <module name="iterator" />
         <module name="adapter" />
         <module name="Singleton" />
+        <module name="abstract_factory" />
         <module name="builder" />
         <module name="prototype" />
         <module name="Template" />
