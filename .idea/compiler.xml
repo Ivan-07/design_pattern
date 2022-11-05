@@ -12,6 +12,7 @@
         <module name="Singleton" />
         <module name="abstract_factory" />
         <module name="builder" />
+        <module name="bridge" />
         <module name="prototype" />
         <module name="Template" />
       </profile>
