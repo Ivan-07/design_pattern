@@ -18,6 +18,8 @@
         <module>builder</module>
         <module>Abstract_factory</module>
         <module>bridge</module>
+        <module>strategy</module>
+        <module>Decorator</module>
     </modules>
 
     <properties>

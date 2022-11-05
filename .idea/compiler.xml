@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="Decorator" />
         <module name="factory" />
         <module name="iterator" />
         <module name="adapter" />
@@ -13,6 +14,7 @@
         <module name="abstract_factory" />
         <module name="builder" />
         <module name="bridge" />
+        <module name="strategy" />
         <module name="prototype" />
         <module name="Template" />
       </profile>
