@@ -20,6 +20,7 @@
         <module>bridge</module>
         <module>strategy</module>
         <module>Decorator</module>
+        <module>visitor</module>
     </modules>
 
     <properties>

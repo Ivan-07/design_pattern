@@ -107,3 +107,16 @@ Decorator模式的目的就是实现这样对“蛋糕”不断做装饰，增�
 - 在不改变被装饰物的前提下增加功能：不需要对被装饰的类做任何修改
 - 可以动态地增加功能：使用了委托模式，就可以不用改变框架代码而生成一个与其他对象具有不同关系的新对象
 - 可以自由组合装饰物：这样就可以在少量装饰物情况下组合出许多功能
+
+## Visitor模式
+**角色：**
+- Visitor：访问者。用于对数据结构中每一个具体的元素（concreteElement）声明一个访问方法
+- ConcreteVisitor：具体的访问者
+- Element：表示Visitor的访问对象。它声明了接收访问者的accept方法。
+- ConcreteElement：实现Element角色所定义的接口
+- ObjectStructure：负责处理Element角色的集合
+
+![](https://raw.githubusercontent.com/ivan-07/picgoImg/main/data/202211062033870.png)
+
+为什么要使用Visitor模式：
+目的是将处理从数据结构中抽离出来，提升了组件的独立性，符合开闭原则——对拓展开发，对修改关闭。

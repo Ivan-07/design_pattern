@@ -15,6 +15,7 @@
         <module name="builder" />
         <module name="bridge" />
         <module name="strategy" />
+        <module name="visitor" />
         <module name="prototype" />
         <module name="Template" />
       </profile>
