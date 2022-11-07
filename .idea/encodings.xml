@@ -15,6 +15,8 @@
     <file url="file://$PROJECT_DIR$/bridge/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/builder/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/builder/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chain_of_responsibility/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chain_of_responsibility/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/factory/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/factory/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/iterator/src/main/java" charset="UTF-8" />

@@ -120,3 +120,13 @@ Decorator模式的目的就是实现这样对“蛋糕”不断做装饰，增�
 
 为什么要使用Visitor模式：
 目的是将处理从数据结构中抽离出来，提升了组件的独立性，符合开闭原则——对拓展开发，对修改关闭。
+
+## Chain of Resiponsibility
+**角色：**
+- Handler：定义了处理请求对接口。Handler知道下一个“处理者”是谁，如果自己无法处理请求，就会把请求传递给下一个处理者。下一个处理者也是Handler。
+- ConcreteHandler：具体的处理者
+- Client：向第一个ConcreteHandler发送请求的角色
+
+![](https://raw.githubusercontent.com/ivan-07/picgoImg/main/data/202211071806973.png)
+
+**好处：** 大大弱化了发送请求的人和处理请求的人之间的关系。也就是说发送请求的人无需知道具体处理请求的人是谁，体现了其作为可复用组件的独立性。另外，这样可以使得每个对象专注于自己负责的处理工作。

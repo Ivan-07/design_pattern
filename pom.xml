@@ -21,6 +21,7 @@
         <module>strategy</module>
         <module>Decorator</module>
         <module>visitor</module>
+        <module>chain_of_responsibility</module>
     </modules>
 
     <properties>
