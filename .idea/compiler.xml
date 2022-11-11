@@ -13,6 +13,7 @@
         <module name="prototype" />
         <module name="Template" />
         <module name="Decorator" />
+        <module name="proxy" />
         <module name="iterator" />
         <module name="Singleton" />
         <module name="builder" />
